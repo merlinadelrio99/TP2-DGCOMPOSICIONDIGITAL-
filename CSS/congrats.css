@@ -1,0 +1,14 @@
+button{
+    background-color: rgb(1, 44, 35);
+
+    color: white;
+
+    padding: 15px 40px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}

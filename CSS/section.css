@@ -1,0 +1,63 @@
+h1{
+    display:none;
+}
+
+.columnas{
+    display:flex;
+    justify-content:space-between;
+}
+
+.tarjeta{
+    flex:1;
+}
+
+.MAPA{
+    max-width:1000px;
+    margin:auto;
+}
+
+.diseño{
+    width: 80%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.diseño img{
+    width: 80%;
+    height: 80%;
+    display: block;
+}
+
+section{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+@media (max-width: 768px){
+    .tarjeta{
+        width: 250px;
+    }
+
+    .libros{
+        gap:20px;
+    }
+}
+
+@media (max-width: 480px){
+    .tarjeta{
+        width: 80%;
+        margin: auto;
+    }
+
+    .tarjeta img{
+        width:100%;
+        height:auto;
+    }
+
+    button{
+        padding:10px 25px;
+    }
+}

@@ -1,0 +1,126 @@
+html {
+    font-size: large;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+a {
+    padding: 20px;
+    display: inline-block;
+}
+
+nav {
+    a {
+        padding: 20px;
+        margin: 0 20px;
+        color: rgb(216, 248, 244);
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(135, 180, 171);
+        border: 1px solid #3c6a69;
+        border-radius: 15px;
+        box-shadow: 0px 1px 1px 1px #173632c2;
+    }
+    a:hover {
+        transform: scale(1.05);
+    }
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+h2 {
+    color:
+        rgb(1, 51, 51);
+}
+
+h3 {
+    color: rgb(53, 75, 72);
+}
+
+.tarjeta {
+    background-color: rgb(135, 180, 171);
+    border: 1.5px solid #00353a;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 60px 100px;
+    color: rgb(245, 250, 249);
+    
+
+}
+
+
+button,
+input {
+    color: rgb(2, 55, 50);
+}
+
+svg {
+    color:
+        rgba(5, 44, 39, 0.773);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.card:hover {
+  transform: scale(1.05); /* efecto al pasar el mouse */
+
+
+.tarjeta {
+  flex: 1;
+  max-width: 9000px;
+}
+
+
+
+button{
+    background-color: rgb(1, 44, 35);
+
+    color: white;
+
+    padding: 15px 40px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+
+button,
+input {
+    background-color: rgb(26, 56, 49);
+
+    color: white;
+
+    padding: 15px 30px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}

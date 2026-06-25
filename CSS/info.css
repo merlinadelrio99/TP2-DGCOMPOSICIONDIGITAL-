@@ -1,0 +1,74 @@
+h1 {
+  display: none;
+}
+
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  flex: 1;
+  max-width: 900px;
+  width: 90%;
+}
+
+
+.MAPA {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.miembro {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.miembro img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+section {
+     max-width: 1000px;
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .miembro {
+    gap: 15px;
+  }
+
+  .miembro img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .miembro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .miembro img {
+    width: 80%;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
