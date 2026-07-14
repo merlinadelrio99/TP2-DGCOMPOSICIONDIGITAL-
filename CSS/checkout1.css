@@ -94,9 +94,9 @@ input[type="reset"]{
     width: 100%;
     margin-bottom: 10px;
     padding: 12px;
-    background-color: #eef5f3;
+    background-color:#a0b7b0;
     color: rgb(1, 44, 35);
-    border: 1px solid rgb(180, 205, 200);
+    border: 1px solid rgb(2, 50, 40);
     border-radius: 10px;
     font-size: 15px;
 }
