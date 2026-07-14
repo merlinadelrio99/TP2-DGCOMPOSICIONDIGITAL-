@@ -74,40 +74,29 @@ a {
 }
 
 
-button{
+/*button:hover{
+    transform: scale(1.05);
+}*/
+
+button,
+input[type="submit"],
+input[type="reset"]{
     background-color: rgb(1, 44, 35);
-
     color: white;
-
     padding: 15px 40px;
-
-    border: none;
-
+    border: 1px solid rgb(2, 50, 40);
     border-radius: 10px;
-
     cursor: pointer;
-
     font-size: 16px;
 }
 
-button:hover{
-    transform: scale(1.05);
-}
-
-
-button,
-input {
-    background-color: rgb(26, 56, 49);
-
-    color: white;
-
-    padding: 15px 30px;
-
-    border: none;
-
+.form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: #eef5f3;
+    color: rgb(1, 44, 35);
+    border: 1px solid rgb(180, 205, 200);
     border-radius: 10px;
-
-    cursor: pointer;
-
     font-size: 15px;
 }

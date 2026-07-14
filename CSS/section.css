@@ -16,19 +16,14 @@ h1{
     margin:auto;
 }
 
-.diseño{
-    width: 80%;
+#carouselDiseño{
+    width: 50%;
     margin: auto;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 
-.diseño img{
-    width: 80%;
-    height: 80%;
-    display: block;
+#carouselDiseño img{
+    width: 50%;
+    height: auto;
 }
 
 section{
@@ -38,11 +33,23 @@ section{
 
 @media (max-width: 768px){
     .tarjeta{
-        width: 250px;
+       width: 90%;
+    margin: 20px auto;
     }
 
     .libros{
-        gap:20px;
+        gap:15px;
+    }
+
+    #carouselDiseño{
+        width: 160px;
+    }
+
+    #carouselDiseño img{
+        width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 10px;
     }
 }
 
