@@ -100,3 +100,7 @@ input[type="reset"]{
     border-radius: 10px;
     font-size: 15px;
 }
+
+input::placeholder {
+    color: rgb(121, 145, 144);
+}

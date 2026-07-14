@@ -153,6 +153,7 @@ input[type="reset"]{
     font-size: 16px;
 }
 
+
 .form input{
     background-color:#a0b7b0;
     color: rgb(1, 44, 35);
@@ -188,7 +189,9 @@ input[type="reset"]{
     font-family: inherit;
 }
 
-
+input::placeholder {
+    color: rgb(121, 145, 144);
+}
 
 svg {
     color:
