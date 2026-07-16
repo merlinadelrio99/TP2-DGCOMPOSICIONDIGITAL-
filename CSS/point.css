@@ -5,21 +5,3 @@
     display: block;
 }
 
-#btnSubir {
-    display: none; 
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #012c23;
-    color: white;
-    border: none;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-#btnSubir:hover {
-    background-color: #014d3d;
-}
